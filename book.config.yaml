@@ -1,0 +1,1039 @@
+id: baidocs-from-gitbook
+title: baidocs-from-gitbook
+description: Documentation imported from GitBook
+type: document
+repository: https://github.com/lablup/backend.ai-docs-2024
+branch: books.lablup.ai
+languages:
+  - en
+  - ko
+navigation:
+  en:
+    - title: Backend.AI Overview
+      path: backendai-overview
+      items:
+        - title: Introduction
+          path: README.md
+          items: []
+        - title: Disclaimer
+          path: backend.ai-overview/disclaimer.md
+          items: []
+        - title: Backend.AI Architecture
+          path: backend.ai-overview/backend.ai-architecture/README.md
+          items:
+            - title: Service Components
+              path: >-
+                backend.ai-overview/backend.ai-architecture/service-components/README.md
+              items:
+                - title: Manager and Webserver
+                  path: >-
+                    backend.ai-overview/backend.ai-architecture/service-components/manager-and-webserver.md
+                  items: []
+                - title: App Proxy
+                  path: >-
+                    backend.ai-overview/backend.ai-architecture/service-components/app-proxy.md
+                  items: []
+                - title: Storage Proxy
+                  path: >-
+                    backend.ai-overview/backend.ai-architecture/service-components/storage-proxy.md
+                  items: []
+                - title: Sokovan Orchestrator
+                  path: >-
+                    backend.ai-overview/backend.ai-architecture/service-components/sokovan-orchestrator.md
+                  items: []
+                - title: Container Registry
+                  path: >-
+                    backend.ai-overview/backend.ai-architecture/service-components/container-registry.md
+                  items: []
+            - title: Computing
+              path: backend.ai-overview/backend.ai-architecture/computing.md
+              items: []
+            - title: Resource Management
+              path: >-
+                backend.ai-overview/backend.ai-architecture/resource-management.md
+              items: []
+            - title: Cluster Networking
+              path: >-
+                backend.ai-overview/backend.ai-architecture/cluster-networking.md
+              items: []
+            - title: Storage Management
+              path: >-
+                backend.ai-overview/backend.ai-architecture/storage-management.md
+              items: []
+            - title: Configuration
+              path: backend.ai-overview/backend.ai-architecture/configuration.md
+              items: []
+        - title: Enterprise Applications
+          path: backend.ai-overview/enterprise-applicatioins/README.md
+          items:
+            - title: FastTrack MLOps
+              path: backend.ai-overview/enterprise-applicatioins/fasttrack-mlops.md
+              items: []
+            - title: Control Panel
+              path: backend.ai-overview/enterprise-applicatioins/control-panel.md
+              items: []
+            - title: Reservoir
+              path: backend.ai-overview/enterprise-applicatioins/reservoir.md
+              items: []
+            - title: Dashboard
+              path: backend.ai-overview/enterprise-applicatioins/monitoring.md
+              items: []
+        - title: Backend.AI Cloud
+          path: backend.ai-overview/backend.ai-cloud.md
+          items: []
+        - title: FAQ
+          path: backend.ai-overview/faq/README.md
+          items:
+            - title: Concepts
+              path: backend.ai-overview/faq/concepts.md
+              items: []
+            - title: Backend.AI Troubleshooting
+              path: backend.ai-overview/faq/backend.ai-troubleshooting.md
+              items: []
+    - title: Install and Run
+      path: install-and-run
+      items:
+        - title: Supported Environments
+          path: install-and-run/support-environments.md
+          items: []
+        - title: Prerequisites
+          path: install-and-run/prerequisites/README.md
+          items:
+            - title: Setup OS Environment
+              path: install-and-run/prerequisites/setup-os-environment.md
+              items: []
+            - title: Install Prerequisites
+              path: install-and-run/prerequisites/install-database.md
+              items: []
+            - title: Configurate WSL
+              path: install-and-run/prerequisites/configurate-wsl.md
+              items: []
+        - title: All-in-one (Single-node) Installation
+          path: install-and-run/single-node-all-in-one/README.md
+          items:
+            - title: Install from Binary
+              path: >-
+                install-and-run/single-node-all-in-one/install-from-binary/README.md
+              items:
+                - title: Manual Installation
+                  path: >-
+                    install-and-run/single-node-all-in-one/install-from-binary/manual-installation.md
+                  items: []
+            - title: Install from Source Code
+              path: >-
+                install-and-run/single-node-all-in-one/install-from-source-code.md
+              items: []
+            - title: Install from PyPI Package
+              path: >-
+                install-and-run/single-node-all-in-one/install-from-pypi-package.md
+              items: []
+        - title: Advanced (Multi-node) Installation
+          path: install-and-run/advanced-installation/README.md
+          items:
+            - title: Multi-node Setup
+              path: install-and-run/advanced-installation/multi-node-setup.md
+              items: []
+        - title: Install from Packages
+          path: install-and-run/install-from-packages/README.md
+          items:
+            - title: Install Backend.AI Manager
+              path: >-
+                install-and-run/install-from-packages/install-backend.ai-manager.md
+              items: []
+        - title: Install on Cloud Services
+          path: install-and-run/install-on-cloud-services/README.md
+          items:
+            - title: Install on AWS
+              path: install-and-run/install-on-cloud-services/install-on-aws.md
+              items: []
+            - title: Install on Azure
+              path: install-and-run/install-on-cloud-services/install-on-azure.md
+              items: []
+            - title: Install on GCP
+              path: install-and-run/install-on-cloud-services/install-on-gcp.md
+              items: []
+            - title: Install on Naver Cloud
+              path: >-
+                install-and-run/install-on-cloud-services/install-on-naver-cloud.md
+              items: []
+        - title: Upgrade a Backend.AI Cluster
+          path: upgrade-a-backend.ai-cluster.md
+          items: []
+    - title: Get Started
+      path: get-started
+      items:
+        - title: Signup and Login
+          path: get-started/signup-and-login.md
+          items: []
+        - title: General Interface
+          path: get-started/general-interface.md
+          items: []
+        - title: Create Storage Folder
+          path: get-started/create-storage-folder.md
+          items: []
+        - title: Start a New Session
+          path: get-started/start-a-new-session.md
+          items: []
+        - title: Run Applications
+          path: get-started/run-applications/README.md
+          items:
+            - title: Jupyter Notebook
+              path: get-started/run-applications/jupyter-notebook.md
+              items: []
+            - title: Web Terminal
+              path: get-started/run-applications/web-terminal.md
+              items: []
+        - title: Model Serving
+          path: get-started/model-serving.md
+          items: []
+    - title: Backend.AI Usage Guide
+      path: backendai-usage-guide
+      items:
+        - title: Start
+          path: backend.ai-usage-guide/start.md
+          items: []
+        - title: Summary
+          path: backend.ai-usage-guide/summary/README.md
+          items:
+            - title: How to accept / reject invitations
+              path: >-
+                backend.ai-usage-guide/summary/how-to-accept-reject-invitations.md
+              items: []
+        - title: Storage
+          path: backend.ai-usage-guide/storage/README.md
+          items:
+            - title: Data
+              path: backend.ai-usage-guide/storage/data/README.md
+              items:
+                - title: How to create / rename / update / delete storage folders
+                  path: >-
+                    backend.ai-usage-guide/storage/data/how-to-create-rename-update-delete-storage-folders.md
+                  items: []
+                - title: How to upload a files / folders to your folder
+                  path: >-
+                    backend.ai-usage-guide/storage/data/how-to-upload-a-files-folders-to-your-folder.md
+                  items: []
+                - title: How to share folders
+                  path: backend.ai-usage-guide/storage/data/how-to-share-folders.md
+                  items: []
+                - title: CLI...
+                  path: backend.ai-usage-guide/storage/data/cli....md
+                  items: []
+        - title: Workload
+          path: backend.ai-usage-guide/workload/README.md
+          items:
+            - title: Sessions
+              path: backend.ai-usage-guide/workload/sessions/README.md
+              items:
+                - title: How to start / terminate a session
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/how-to-start-terminate-a-session.md
+                  items: []
+                - title: Optional settings when creating a session
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/optional-settings-when-creating-a-session.md
+                  items: []
+                - title: How to  existing sessions
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/how-to-existing-sessions.md
+                  items: []
+                - title: How to use Backend.AI Cluster Session
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/how-to-use-backend.ai-cluster-session.md
+                  items: []
+                - title: How to optimize Accelerated Computing
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/how-to-optimize-accelerated-computing.md
+                  items: []
+                - title: Mounting Folders to a Compute Session
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/mounting-folders-to-a-compute-session.md
+                  items: []
+                - title: SSH/SFTP Connection to a Compute Session
+                  path: >-
+                    backend.ai-usage-guide/workload/sessions/ssh-sftp-connection-to-a-compute-session.md
+                  items: []
+            - title: Import & Run
+              path: backend.ai-usage-guide/workload/import-and-run/README.md
+              items:
+                - title: How to import notebooks and web based Git repositories
+                  path: >-
+                    backend.ai-usage-guide/workload/import-and-run/how-to-import-notebooks-and-web-based-git-repositories.md
+                  items: []
+            - title: My Environments
+              path: backend.ai-usage-guide/workload/my-environment.md
+              items: []
+        - title: Playground
+          path: backend.ai-usage-guide/playground/README.md
+          items:
+            - title: AI Agents
+              path: backend.ai-usage-guide/playground/ai-agents.md
+              items: []
+            - title: Chat
+              path: backend.ai-usage-guide/playground/chat/README.md
+              items:
+                - title: How to create multiple chat windows
+                  path: >-
+                    backend.ai-usage-guide/playground/chat/how-to-create-multiple-chat-windows.md
+                  items: []
+        - title: Service
+          path: backend.ai-usage-guide/serving/README.md
+          items:
+            - title: Serving
+              path: backend.ai-usage-guide/serving/serving/README.md
+              items:
+                - title: How to start a new service
+                  path: >-
+                    backend.ai-usage-guide/serving/serving/how-to-start-a-new-service.md
+                  items: []
+                - title: How to add a new environment variable to a service
+                  path: >-
+                    backend.ai-usage-guide/serving/serving/how-to-add-a-new-environment-variable-to-a-service.md
+                  items: []
+            - title: Model Store
+              path: backend.ai-usage-guide/serving/model-store/README.md
+              items:
+                - title: How to search a model
+                  path: >-
+                    backend.ai-usage-guide/serving/model-store/how-to-search-a-model.md
+                  items: []
+                - title: How to download a model to my environment
+                  path: >-
+                    backend.ai-usage-guide/serving/model-store/how-to-download-a-model-to-my-environment.md
+                  items: []
+                - title: How to fine-tune the uploaded model
+                  path: >-
+                    backend.ai-usage-guide/serving/model-store/how-to-fine-tune-the-uploaded-model.md
+                  items: []
+        - title: Metrics
+          path: backend.ai-usage-guide/preferences/README.md
+          items:
+            - title: Statistics
+              path: backend.ai-usage-guide/preferences/statistics.md
+              items: []
+        - title: Profile & Preferences
+          path: backend.ai-usage-guide/data-and-storage/README.md
+          items:
+            - title: How to change personal informations
+              path: >-
+                backend.ai-usage-guide/data-and-storage/how-to-change-personal-informations.md
+              items: []
+            - title: How to change system settings
+              path: >-
+                backend.ai-usage-guide/data-and-storage/how-to-change-system-settings.md
+              items: []
+            - title: How to customize theme and logo
+              path: >-
+                backend.ai-usage-guide/data-and-storage/how-to-customize-theme-and-logo.md
+              items: []
+            - title: How to view logs & errors
+              path: >-
+                backend.ai-usage-guide/data-and-storage/how-to-view-logs-and-errors.md
+              items: []
+        - title: CLI (User)
+          path: cli-user/README.md
+          items:
+            - title: How to begin with CLI (User)
+              path: cli-user/how-to-begin-with-cli-user.md
+              items: []
+            - title: Starting a Session with CLI
+              path: cli-user/starting-a-session-with-cli.md
+              items: []
+            - title: Commiting a Session with CLI
+              path: cli-user/commiting-a-session-with-cli.md
+              items: []
+            - title: Downloading Files from Session with CLI
+              path: cli-user/downloading-files-from-session-with-cli.md
+              items: []
+            - title: Terminating a Session with CLI
+              path: cli-user/terminating-a-session-with-cli.md
+              items: []
+            - title: Using SSH in a compute session
+              path: cli-user/using-ssh-in-a-compute-session.md
+              items: []
+            - title: Creating a Model Service
+              path: cli-user/creating-a-model-service.md
+              items: []
+            - title: Updating a Model Service
+              path: cli-user/updating-a-model-service.md
+              items: []
+            - title: Deleting a Model Service
+              path: cli-user/deleting-a-model-service.md
+              items: []
+            - title: 'CLI: Troubleshooting'
+              path: cli-user/cli-troubleshooting.md
+              items: []
+        - title: CLI (Admin)
+          path: cli-admin/README.md
+          items:
+            - title: How to begin with CLI (Admin)
+              path: cli-admin/how-to-begin-with-cli-admin.md
+              items: []
+            - title: Resource Management
+              path: cli-admin/resource-management.md
+              items: []
+            - title: User Management
+              path: cli-admin/user-management.md
+              items: []
+            - title: Data Folder and Storage Management
+              path: cli-admin/data-folder-and-storage-management.md
+              items: []
+            - title: Image Management
+              path: cli-admin/image-management.md
+              items: []
+            - title: Updating WebUI announcements
+              path: cli-admin/updating-webui-announcements.md
+              items: []
+    - title: 🏢 Administration
+      path: administration
+      items:
+        - title: User Settings
+          path: administration/user-settings.md
+          items: []
+        - title: Environments
+          path: administration/environments.md
+          items: []
+        - title: Resources
+          path: administration/resources.md
+          items: []
+        - title: Configurations
+          path: administration/configurations.md
+          items: []
+        - title: Maintenance
+          path: administration/maintenance.md
+          items: []
+        - title: Information
+          path: administration/information.md
+          items: []
+    - title: 🏢 FastTrack 2 MLOps
+      path: fasttrack-2-mlops
+      items:
+        - title: FastTrack 2 Key Concept
+          path: fasttrack-2-mlops/fasttrack-key-concept.md
+          items: []
+        - title: Structure
+          path: fasttrack-2-mlops/structure.md
+          items: []
+        - title: Starting FastTrack 2
+          path: fasttrack-2-mlops/starting-fasttrack-2/README.md
+          items:
+            - title: Registering account and Logging-in
+              path: >-
+                fasttrack-2-mlops/starting-fasttrack-2/registering-account-and-logging-in.md
+              items: []
+        - title: Pipelines
+          path: fasttrack-2-mlops/pipelines/README.md
+          items:
+            - title: Creating and editing a new pipeline
+              path: >-
+                fasttrack-2-mlops/pipelines/creating-and-editing-a-new-pipeline.md
+              items: []
+            - title: Adding Tasks within a Pipeline
+              path: fasttrack-2-mlops/pipelines/adding-tasks-within-a-pipeline.md
+              items: []
+            - title: Creating dependencies between tasks
+              path: >-
+                fasttrack-2-mlops/pipelines/creating-dependencies-between-tasks.md
+              items: []
+            - title: Importing a Pipeline
+              path: fasttrack-2-mlops/pipelines/importing-a-pipeline.md
+              items: []
+            - title: Editing the created Pipeline
+              path: fasttrack-2-mlops/pipelines/editing-the-created-pipeline.md
+              items: []
+            - title: Skipping a Task
+              path: fasttrack-2-mlops/pipelines/skipping-a-task.md
+              items: []
+            - title: Reverting Pipeline Version
+              path: fasttrack-2-mlops/pipelines/reverting-pipeline-version.md
+              items: []
+        - title: Pipeline Jobs
+          path: fasttrack-2-mlops/pipeline-jobs/README.md
+          items:
+            - title: Creating a Pipeline Job
+              path: fasttrack-2-mlops/pipeline-jobs/creating-a-pipeline-job.md
+              items: []
+            - title: Scheduling a Pipeline Job
+              path: fasttrack-2-mlops/pipeline-jobs/scheduling-a-pipeline-job.md
+              items: []
+            - title: Tracking the running Pipeline Job
+              path: >-
+                fasttrack-2-mlops/pipeline-jobs/tracking-the-running-pipeline-job.md
+              items: []
+        - title: Settings
+          path: settings.md
+          items: []
+    - title: 🏢 Control Panel
+      path: control-panel
+      items:
+        - title: Control Panel Key Concepts
+          path: control-panel/control-panel-key-concepts.md
+          items: []
+        - title: Getting Started
+          path: control-panel/getting-started.md
+          items: []
+        - title: Dashboard
+          path: control-panel/dashboard.md
+          items: []
+        - title: Management
+          path: control-panel/management.md
+          items: []
+    - title: 🏢 Reservoir
+      path: reservoir
+      items:
+        - title: Reservoir Key Concept
+          path: reservoir/reservoir-key-concept.md
+          items: []
+    - title: Migration Guide
+      path: migration-guide
+      items:
+        - title: Upgrading from 20.x to 24.x
+          path: migration-guide/upgrading-from-20.x-to-24.x.md
+          items: []
+        - title: Migrating from the Docker Hub to cr.backend.ai
+          path: migration-guide/migrating-from-the-docker-hub-to-cr.backend.ai.md
+          items: []
+    - title: Developer Guide
+      path: developer-guide
+      items:
+        - title: Development Setup
+          path: developer-guide/development-setup.md
+          items: []
+        - title: Daily Development Workflows
+          path: developer-guide/daily-development-workflows.md
+          items: []
+        - title: Version Numbering
+          path: developer-guide/version-numbering.md
+          items: []
+    - title: API Reference
+      path: api-reference
+      items:
+        - title: Manager API Reference
+          path: api-reference/manager-api-reference/README.md
+          items:
+            - title: Manager API Common Concepts
+              path: >-
+                api-reference/manager-api-reference/manager-api-common-concepts/README.md
+              items:
+                - title: API and Document Conventions
+                  path: >-
+                    api-reference/manager-api-reference/manager-api-common-concepts/api-and-document-conventions.md
+                  items: []
+                - title: JSON Object References
+                  path: >-
+                    api-reference/manager-api-reference/manager-api-common-concepts/json-object-references.md
+                  items: []
+                - title: Authentication
+                  path: >-
+                    api-reference/manager-api-reference/manager-api-common-concepts/authentication.md
+                  items: []
+                - title: Rate Limiting
+                  path: >-
+                    api-reference/manager-api-reference/manager-api-common-concepts/rate-limiting.md
+                  items: []
+            - title: Manager REST API
+              path: api-reference/manager-api-reference/manager-rest-api/README.md
+              items:
+                - title: Session Management
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/session-management.md
+                  items: []
+                - title: Code Execution (Query Mode)
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/code-execution-query-mode.md
+                  items: []
+                - title: Code Execution (Batch Mode)
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/code-execution-batch-mode.md
+                  items: []
+                - title: Code Execution (Streaming)
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/code-execution-streaming.md
+                  items: []
+                - title: Event Monitoring
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/event-monitoring.md
+                  items: []
+                - title: Service Ports
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/service-ports.md
+                  items: []
+                - title: Resource Presets
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/resource-presets.md
+                  items: []
+                - title: Virtual Folders
+                  path: >-
+                    api-reference/manager-api-reference/manager-rest-api/virtual-folders.md
+                  items: []
+        - title: Agent API Reference
+          path: api-reference/agent-api-reference.md
+          items: []
+        - title: Storage Proxy Reference
+          path: api-reference/storage-proxy-reference.md
+          items: []
+    - title: Command Reference
+      path: command-reference
+      items:
+        - title: Client CLI
+          path: command-reference/client-cli.md
+          items: []
+        - title: Manager CLI
+          path: command-reference/manager-cli.md
+          items: []
+        - title: Agent CLI
+          path: command-reference/agent-cli.md
+          items: []
+        - title: Storage CLI
+          path: command-reference/storage-cli.md
+          items: []
+    - title: Backend.AI SDK
+      path: backendai-sdk
+      items:
+        - title: Client SDK for TypeScript
+          path: backend.ai-sdk/client-sdk-for-typescript.md
+          items: []
+        - title: Client SDK for Python
+          path: backend.ai-sdk/client-sdk-for-python.md
+          items:
+            - title: Installation
+              path: backend.ai-sdk/client-sdk-for-python/installation.md
+              items: []
+            - title: Client Configuration
+              path: backend.ai-sdk/client-sdk-for-python/client-configuration.md
+              items: []
+            - title: Command Line Interface
+              path: >-
+                backend.ai-sdk/client-sdk-for-python/command-line-interface/README.md
+              items:
+                - title: Configuration
+                  path: >-
+                    backend.ai-sdk/client-sdk-for-python/command-line-interface/configuration.md
+                  items: []
+                - title: Compute Sessions
+                  path: >-
+                    backend.ai-sdk/client-sdk-for-python/command-line-interface/compute-sessions.md
+                  items: []
+                - title: Container Applications
+                  path: >-
+                    backend.ai-sdk/client-sdk-for-python/command-line-interface/container-applications.md
+                  items: []
+                - title: Storage Management
+                  path: >-
+                    backend.ai-sdk/client-sdk-for-python/command-line-interface/storage-management.md
+                  items: []
+                - title: Advanced Code Execution
+                  path: >-
+                    backend.ai-sdk/client-sdk-for-python/command-line-interface/advanced-code-execution.md
+                  items: []
+                - title: Session Templates
+                  path: >-
+                    backend.ai-sdk/client-sdk-for-python/command-line-interface/session-templates.md
+                  items: []
+            - title: High-level Function Reference
+              path: >-
+                backend.ai-sdk/client-sdk-for-python/high-level-function-reference.md
+              items: []
+            - title: Low-level SDK Reference
+              path: backend.ai-sdk/client-sdk-for-python/low-level-sdk-reference.md
+              items: []
+    - title: Deprecated
+      path: deprecated
+      items:
+        - title: Forklift Key Concepts
+          path: deprecated/forklift-key-concepts/README.md
+          items:
+            - title: Build with OpenAPI
+              path: deprecated/forklift-key-concepts/build-with-openapi.md
+              items: []
+            - title: Build with GUI
+              path: deprecated/forklift-key-concepts/build-with-gui.md
+              items: []
+    - title: Terms of License Agreement
+      path: terms-of-license-agreement
+      items:
+        - title: Backend.AI License (Software)
+          path: terms-of-license-agreement/backend.ai-license-software.md
+          items: []
+  ko:
+    - title: Backend.AI 살펴보기
+      path: backendai
+      items:
+        - title: 소개
+          path: README.md
+          items: []
+        - title: 면책 조항 (Disclaimer)
+          path: backend.ai/disclaimer.md
+          items: []
+        - title: Backend.AI 아키텍처
+          path: backend.ai/backend.ai-architecture/README.md
+          items:
+            - title: 서비스 컴포넌트
+              path: backend.ai/backend.ai-architecture/service-components/README.md
+              items:
+                - title: 매니저 및 웹서버
+                  path: >-
+                    backend.ai/backend.ai-architecture/service-components/manager-and-webserver.md
+                  items: []
+                - title: 앱 프록시 (App Proxy)
+                  path: >-
+                    backend.ai/backend.ai-architecture/service-components/app-proxy.md
+                  items: []
+                - title: 스토리지 프록시 (Storage Proxy)
+                  path: >-
+                    backend.ai/backend.ai-architecture/service-components/storage-proxy.md
+                  items: []
+                - title: 소코반 오케스트레이터 (Sokovan Orchestrator)
+                  path: >-
+                    backend.ai/backend.ai-architecture/service-components/sokovan-orchestrator.md
+                  items: []
+                - title: 컨테이너 레지스트리 (Container Registry)
+                  path: >-
+                    backend.ai/backend.ai-architecture/service-components/container-registry.md
+                  items: []
+            - title: Computing
+              path: backend.ai/backend.ai-architecture/computing.md
+              items: []
+            - title: 리소스 관리
+              path: backend.ai/backend.ai-architecture/resource-management.md
+              items: []
+            - title: 클러스터 네트워킹
+              path: backend.ai/backend.ai-architecture/cluster-networking.md
+              items: []
+            - title: 스토리지 관리
+              path: backend.ai/backend.ai-architecture/storage-management.md
+              items: []
+            - title: Configuration
+              path: backend.ai/backend.ai-architecture/configuration.md
+              items: []
+        - title: 엔터프라이즈 애플리케이션
+          path: backend.ai/enterprise-applicatioins/README.md
+          items:
+            - title: FastTrack MLOps
+              path: backend.ai/enterprise-applicatioins/fasttrack-mlops.md
+              items: []
+            - title: Control Panel
+              path: backend.ai/enterprise-applicatioins/control-panel.md
+              items: []
+            - title: Forklift
+              path: backend.ai/enterprise-applicatioins/forklift.md
+              items: []
+            - title: Reservoir
+              path: backend.ai/enterprise-applicatioins/reservoir.md
+              items: []
+            - title: Monitoring
+              path: backend.ai/enterprise-applicatioins/monitoring.md
+              items: []
+        - title: Backend.AI Cloud
+          path: backend.ai/backend.ai-cloud.md
+          items: []
+        - title: 자주 하는 질문
+          path: backend.ai/faq.md
+          items: []
+    - title: 설치 및 실행하기
+      path: ''
+      items:
+        - title: 지원되는 환경
+          path: undefined/support-environments.md
+          items: []
+        - title: 사전 요구사항
+          path: undefined/prerequisites/README.md
+          items:
+            - title: 운영체제 환경 세팅하기
+              path: undefined/prerequisites/setup-os-environment.md
+              items: []
+            - title: 데이터베이스 설치하기
+              path: undefined/prerequisites/install-database.md
+              items: []
+            - title: Requred Python version
+              path: undefined/prerequisites/requred-python-version.md
+              items: []
+            - title: Configurate WSL
+              path: undefined/prerequisites/configurate-wsl.md
+              items: []
+        - title: Single node, All-in-one
+          path: undefined/single-node-all-in-one/README.md
+          items:
+            - title: 바이너리에서부터 설치하기
+              path: undefined/single-node-all-in-one/install-from-binary.md
+              items: []
+            - title: 소스코드로부터 설치하기
+              path: undefined/single-node-all-in-one/install-from-source-code.md
+              items: []
+        - title: 패키지로부터 설치하기
+          path: undefined/install-from-packages.md
+          items: []
+        - title: 클라우드 서비스에 설치하기
+          path: undefined/install-on-cloud-services/README.md
+          items:
+            - title: AWS에 설치하기
+              path: undefined/install-on-cloud-services/install-on-aws.md
+              items: []
+            - title: Azure에 설치하기
+              path: undefined/install-on-cloud-services/install-on-azure.md
+              items: []
+            - title: GCP에 설치하기
+              path: undefined/install-on-cloud-services/install-on-gcp.md
+              items: []
+            - title: 네이버 클라우드에 설치하기
+              path: undefined/install-on-cloud-services/install-on-naver-cloud.md
+              items: []
+    - title: Get Started
+      path: get-started
+      items:
+        - title: 가입 및 로그인
+          path: get-started/signup-and-login.md
+          items: []
+        - title: 스토리지 폴더 생성하기
+          path: get-started/create-storage-folder.md
+          items: []
+        - title: 새로운 세션 시작하기
+          path: get-started/start-a-new-session.md
+          items: []
+        - title: Run Applications
+          path: get-started/run-applications/README.md
+          items:
+            - title: Jupyter Notebook
+              path: get-started/run-applications/jupyter-notebook.md
+              items: []
+            - title: 웹 터미널
+              path: get-started/run-applications/web-terminal.md
+              items: []
+        - title: 모델 서빙
+          path: get-started/model-serving.md
+          items: []
+    - title: Backend.AI Usage Guide
+      path: backendai-usage-guide
+      items:
+        - title: 시작
+          path: backend.ai-usage-guide/undefined.md
+          items: []
+        - title: 요약
+          path: webui-basic/summary.md
+          items: []
+        - title: 스토리지
+          path: backend.ai-usage-guide/undefined-1/README.md
+          items:
+            - title: 데이터
+              path: backend.ai-usage-guide/undefined-1/undefined/README.md
+              items:
+                - title: 폴더 생성 / 공유 / 관리하기
+                  path: backend.ai-usage-guide/undefined-1/undefined/undefined.md
+                  items: []
+                - title: 폴더 안에 다른 파일 및 폴더 업로드하기
+                  path: backend.ai-usage-guide/undefined-1/undefined/undefined-1.md
+                  items: []
+                - title: CLI...
+                  path: backend.ai-usage-guide/undefined-1/undefined/cli....md
+                  items: []
+        - title: 워크로드
+          path: backend.ai-usage-guide/undefined-2/README.md
+          items:
+            - title: 세션
+              path: backend.ai-usage-guide/undefined-2/sessions/README.md
+              items:
+                - title: 세션 시작하고 종료하기
+                  path: backend.ai-usage-guide/undefined-2/sessions/undefined.md
+                  items: []
+                - title: 세션 생성 시 환경변수 추가하기
+                  path: backend.ai-usage-guide/undefined-2/sessions/undefined-1.md
+                  items: []
+                - title: 생성된 세션 관리하기
+                  path: backend.ai-usage-guide/undefined-2/sessions/undefined-2.md
+                  items: []
+                - title: 가속 컴퓨팅 최적화하기
+                  path: backend.ai-usage-guide/undefined-2/sessions/undefined-3.md
+                  items: []
+            - title: 가져오기 & 실행
+              path: backend.ai-usage-guide/undefined-2/and.md
+              items: []
+            - title: 나의 실행 환경
+              path: backend.ai-usage-guide/undefined-2/undefined.md
+              items: []
+        - title: 플레이그라운드
+          path: backend.ai-usage-guide/undefined-3/README.md
+          items:
+            - title: 채팅
+              path: backend.ai-usage-guide/undefined-3/undefined/README.md
+              items:
+                - title: 다중 채팅 영역 생성하기
+                  path: backend.ai-usage-guide/undefined-3/undefined/undefined.md
+                  items: []
+        - title: 서비스
+          path: webui-basic/serving/README.md
+          items:
+            - title: 모델 서빙
+              path: backend.ai-usage-guide/serving/undefined/README.md
+              items:
+                - title: 새로운 서비스 실행하기
+                  path: backend.ai-usage-guide/serving/undefined/undefined.md
+                  items: []
+                - title: 서비스에 환경 변수 추가하기
+                  path: backend.ai-usage-guide/serving/undefined/undefined-1.md
+                  items: []
+            - title: 모델 서비스
+              path: backend.ai-usage-guide/serving/undefined-1/README.md
+              items:
+                - title: 등록된 모델 검색하기
+                  path: backend.ai-usage-guide/serving/undefined-1/undefined.md
+                  items: []
+                - title: 모델 다운로드하기
+                  path: backend.ai-usage-guide/serving/undefined-1/undefined-1.md
+                  items: []
+                - title: 모델 파인튜닝하기
+                  path: backend.ai-usage-guide/serving/undefined-1/undefined-2.md
+                  items: []
+        - title: 메트릭
+          path: webui-basic/statistics.md
+          items:
+            - title: 통계
+              path: backend.ai-usage-guide/statistics/undefined.md
+              items: []
+        - title: 프로필 & 환경설정
+          path: backend.ai-usage-guide/preferences/README.md
+          items:
+            - title: 개인정보 변경하기
+              path: backend.ai-usage-guide/preferences/undefined.md
+              items: []
+            - title: 시스템 설정 변경하기
+              path: backend.ai-usage-guide/preferences/undefined-1.md
+              items: []
+            - title: 시스템 테마 및 로고 커스텀하기
+              path: backend.ai-usage-guide/preferences/undefined-2.md
+              items: []
+            - title: 에러 및 로그 확인하기
+              path: backend.ai-usage-guide/preferences/undefined-3.md
+              items: []
+    - title: 🏢 Administration
+      path: administration
+      items:
+        - title: User Settings
+          path: administration/user-settings.md
+          items: []
+        - title: Environments
+          path: administration/environments.md
+          items: []
+        - title: Resources
+          path: administration/resources.md
+          items:
+            - title: cr.backend.ai and Docker Hub
+              path: administration/resources/cr.backend.ai-and-docker-hub.md
+              items: []
+            - title: Migrating from the Docker Hub to cr.backend.ai
+              path: >-
+                migration-guide/migrating-from-the-docker-hub-to-cr.backend.ai.md
+              items: []
+        - title: Configurations
+          path: administration/configurations.md
+          items: []
+        - title: Maintenance
+          path: administration/maintenance.md
+          items: []
+        - title: Information
+          path: administration/information.md
+          items: []
+    - title: 🏢 FastTrack MLOps
+      path: fasttrack-mlops
+      items:
+        - title: FastTrack 핵심 콘셉트
+          path: fasttrack-mlops/fasttrack-key-concept.md
+          items: []
+        - title: 가져오기 & 실행
+          path: fasttrack-mlops/install-and-run.md
+          items: []
+        - title: 파이프라인
+          path: fasttrack-mlops/pipeline.md
+          items: []
+        - title: Pipeline Job
+          path: fasttrack-mlops/pipeline-job.md
+          items: []
+    - title: 🏢 Control Panel
+      path: control-panel
+      items:
+        - title: Control Panel Key Concepts
+          path: control-panel/control-panel-key-concepts.md
+          items: []
+        - title: Dashboard
+          path: control-panel/dashboard.md
+          items: []
+        - title: Management
+          path: control-panel/management.md
+          items: []
+    - title: 🏢 Reservoir
+      path: reservoir
+      items:
+        - title: Reservoir 핵심 콘셉트
+          path: reservoir/reservoir-key-concept.md
+          items: []
+    - title: Migration Guide
+      path: migration-guide
+      items:
+        - title: (Source) Upgrading from 20.x to 24.x
+          path: migration-guide/upgrading-from-20.x-to-24.x.md
+          items: []
+        - title: Version 별 database migration
+          path: migration-guide/version-database-migration.md
+          items: []
+    - title: Developer Guide
+      path: developer-guide
+      items:
+        - title: Development Setup
+          path: developer-guide/development-setup.md
+          items: []
+        - title: Daily Development Workflows
+          path: developer-guide/daily-development-workflows.md
+          items: []
+        - title: Version Numbering
+          path: developer-guide/version-numbering.md
+          items: []
+    - title: API Reference
+      path: api-reference
+      items:
+        - title: Manager API Reference
+          path: api-reference/manager-api-reference.md
+          items: []
+        - title: Agent API Reference
+          path: api-reference/agent-api-reference.md
+          items: []
+        - title: Storage Proxy Reference
+          path: api-reference/storage-proxy-reference.md
+          items: []
+    - title: Command Reference
+      path: command-reference
+      items:
+        - title: Client CLI
+          path: command-reference/client-cli.md
+          items: []
+        - title: Manager CLI
+          path: command-reference/manager-api-reference.md
+          items: []
+        - title: Agent CLI
+          path: command-reference/agent-api-reference.md
+          items: []
+        - title: Storage CLI
+          path: command-reference/storage-proxy-reference.md
+          items: []
+    - title: Backend.AI SDK
+      path: backendai-sdk
+      items:
+        - title: Client SDK for TypeScript
+          path: backend.ai-sdk/client-sdk-for-typescript.md
+          items: []
+        - title: Client SDK for Python
+          path: backend.ai-sdk/client-sdk-for-python/README.md
+          items:
+            - title: 설치
+              path: backend.ai-sdk/client-sdk-for-python/undefined.md
+              items: []
+    - title: Deprecated
+      path: deprecated
+      items:
+        - title: Forklift 핵심 콘셉트
+          path: deprecated/forklift-key-concept/README.md
+          items:
+            - title: OpenAPI를 이용하여 빌드하기
+              path: deprecated/forklift-key-concept/openapi.md
+              items: []
+            - title: GUI를 이용하여 빌드하기
+              path: deprecated/forklift-key-concept/gui.md
+              items: []
